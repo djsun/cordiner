@@ -1,30 +1,26 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '~> 3.0'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# templating
+gem 'haml', '~> 3.0'
 
+# authentication / authorization
+gem 'cancan', '~> 1.5'
+gem 'devise', '~> 1.1'
 
-# Use unicorn as the web server
-# gem 'unicorn'
+# database-related
+gem 'bson_ext'
+gem 'database_cleaner', '~> 0.6'
+gem 'factory_girl', '~> 1.3'
+gem 'mongoid', '~> 2.0.0.rc.7'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+# web server
+gem 'unicorn', '~> 3.3'
 
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug'
-# gem 'ruby-debug19'
-
-# Bundle the extra gems:
-# gem 'bj'
-# gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
-# gem 'aws-s3', :require => 'aws/s3'
-
-# Bundle gems for the local environment. Make sure to
-# put test-only gems in this group so their generators
-# and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :test, :development do
+  gem 'autotest', '~> 4.4'
+  gem 'capistrano', '~> 2.5'
+  gem 'metric_fu', '~> 2.0'
+  gem 'rspec-rails', '~> 2.4'
+end
