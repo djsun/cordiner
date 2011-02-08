@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '~> 3.0'
 
-# templating
+# views / templating
 gem 'haml', '~> 3.0'
 
 # authentication / authorization

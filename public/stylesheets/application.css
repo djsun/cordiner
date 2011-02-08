@@ -1,0 +1,28 @@
+header {
+  display: block;
+  background-color: silver;
+  text-align: center; }
+  header h1 {
+    font-size: 24px; }
+
+h1 {
+  margin-bottom: 16px; }
+
+body {
+  font-size: 16px; }
+
+p {
+  margin-bottom: 16px; }
+
+footer {
+  background-color: silver;
+  display: block;
+  text-align: center; }
+  footer h1 {
+    font-size: 16px; }
+
+article#dashboard_show h1 {
+  text-align: center;
+  font-size: 24px; }
+article#dashboard_show p {
+  text-align: center; }

@@ -1,0 +1,21 @@
+!!! 5
+%html{ :lang => "en" }
+  %head
+    %meta{ :name => "description", :content => "Sunlight Foundation Metrics" }
+    %meta{ :charset => "utf-8" }
+    %title= "#{@page_title} | Sunlight Foundation Metrics"
+    /[if lt IE 9]
+      = javascript_include_tag 'html5shiv'
+    = stylesheet_link_tag 'yui/reset', 'application', :cache => true
+    %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
+    = csrf_meta_tag
+    = content_for :head
+  %body
+    = render 'layouts/header'
+    - if notice = flash[:notice]
+      .message.notice= notice
+    - if alert = flash[:alert]
+      .message.alert= alert
+    = yield
+    = render 'layouts/footer'
+    = javascript_include_tag 'jquery-1.4.4.min', 'rails', 'application', :cache => true
