@@ -1,0 +1,16 @@
+defaults: &defaults
+  host: localhost
+  allow_dynamic_fields: false
+
+development:
+  <<: *defaults
+  database: cordiner_development
+  # autocreate_indexes: true
+
+test:
+  <<: *defaults
+  database: cordiner_test
+
+production:
+  <<: *defaults
+  database: cordiner_production

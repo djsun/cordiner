@@ -1,4 +1,6 @@
-$light_gray: #C0C0C0
+// General colors
+$light_gray: hsl(0, 0%, 90%)
+$box_fill:   hsl(0, 0%, 80%)
 
 header
   background-color: $light_gray
@@ -18,14 +20,42 @@ p
 
 footer
   background-color: $light_gray
+  clear: left
   display: block
   text-align: center
   h1
     font-size: 16px
 
-article#dashboard_show
-  h1
-    text-align: center
-    font-size: 24px
-  p
-    text-align: center
+div.main
+  margin: 0 10px
+
+div#dashboard_show
+  div#chart_1
+    width: 150px
+    height: 100px
+  section
+    clear: left
+    display: block
+    border-top: 1px solid black
+    h1
+      text-align: left
+      font-size: 16px
+    article
+      display: block
+      float: left
+      width: 150px
+      margin-right: 10px
+      margin-bottom: 10px
+      h1
+        height: 28px
+        margin: 0
+        position: relative
+        div
+          bottom: 0
+          font-size: 12px
+          position: absolute
+          text-align: center
+          width: 150px
+      div.chart
+        height: 100px
+        background-color: $box_fill

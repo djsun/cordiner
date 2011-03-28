@@ -1,0 +1,11 @@
+development:
+  host: http://localhost:8000/
+  key: asdf
+
+test:
+  host: http://localhost:8000/
+  key: asdf
+
+production:
+  host: http://localhost:8000/
+  key: asdf

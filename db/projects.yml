@@ -1,0 +1,221 @@
+- name: "Sunlight Live - State of the Union"
+  short_name: "SL-SotU"
+  date: 2011-01-25
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+  - visits_per_day
+  - unique_participants
+  - relative_event_prominence
+  - comments
+  - approved_versus_unapproved_comments
+- name: "Sunlight Live - Chamber of Commerce"
+  short_name: "SL - CoC"
+  date: 2011-02-07
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+  - visits_per_day
+  - unique_participants
+  - relative_event_prominence
+  - comments
+  - approved_versus_unapproved_comments
+- name: "Transparency Data"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Briefing Book"
+  facets:
+  - mobile
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Congress for Android"
+  facets:
+  - mobile
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Congress for iPhone"
+  facets:
+  - mobile
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Influence Explorer"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "National Data Catalog"
+  facets:
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Party Time"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Poligraft"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Politiwidgets"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "StreamCongress"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Sunlight Reporting Group"
+  facets:
+  - web
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - visits_per_week
+  - facebook_likes
+- name: "Trainings"
+  facets:
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes
+- name: "Agency Accountability Data Initiative"
+  facets:
+  metrics:
+  - visits_per_week
+  - unique_visits_per_week
+  - average_time_per_visit
+  - bounce_rate
+  - visits_per_week_per_unique_visitor
+  - page_views_per_visit
+  - new_versus_return_visits
+  - top_traffic_referrers
+  - email_signups
+  - facebook_likes

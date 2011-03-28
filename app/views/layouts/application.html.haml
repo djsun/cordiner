@@ -6,6 +6,9 @@
     %title= "#{@page_title} | Sunlight Foundation Metrics"
     /[if lt IE 9]
       = javascript_include_tag 'html5shiv'
+    /[if IE]
+      = javascript_include_tag 'excanvas.compiled'
+    = javascript_include_tag 'jquery-1.4.4.min', 'highcharts', 'rails', 'application', 'my_chart', :cache => true
     = stylesheet_link_tag 'yui/reset', 'application', :cache => true
     %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
     = csrf_meta_tag
@@ -16,6 +19,6 @@
       .message.notice= notice
     - if alert = flash[:alert]
       .message.alert= alert
-    = yield
+    %div.main
+      = yield
     = render 'layouts/footer'
-    = javascript_include_tag 'jquery-1.4.4.min', 'rails', 'application', :cache => true

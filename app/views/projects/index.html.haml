@@ -1,0 +1,5 @@
+- @page_title = 'Projects'
+#dashboard_show
+  - @projects.each do |project|
+    %section
+      %h1= project['name']

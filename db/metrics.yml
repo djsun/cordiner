@@ -1,0 +1,161 @@
+# -----
+# overall audience size and growth
+# -----
+
+- uid: visits_per_week
+  name: visits per week
+  short_name: visits / week
+  unit: visits
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: overall_audience
+
+- uid: visits_per_day
+  name: visits per day
+  short_name: visits / day
+  unit: visits
+  cumulative: false
+  aggregate: day
+  chart_type: line
+  category: overall_audience
+
+- uid: unique_visits_per_week
+  name: unique visits_per_week
+  short_name: uniq. visits / week
+  unit: visits
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: overall_audience
+
+- uid: visits_per_week_per_unique_visitor
+  name: visits per week per unique visitor
+  short_name: visits / week / uniq. visitor
+  unit: visits
+  cumulative: false
+  aggregate: week
+  chart_type: line
+
+- uid: new_versus_return_visits
+  name: new versus return visits
+  short_name: new v. return visits
+  unit: visits
+  cumulative: false
+  aggregate: week
+  chart_type: stacked_area
+
+# also: user loyalty
+# also: success with search
+
+# -----
+# engagement
+# -----
+
+- uid: average_time_per_visit
+  name: average time per visit
+  short_name: avg. time / visit
+  unit: seconds
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: engagement
+
+- uid: bounce_rate
+  name: bounce rate
+  short_name: bounce_rate
+  unit: "?"
+  cumulative: false
+  aggregate: week
+  chart_type: stacked_area
+  category: engagement
+
+- uid: page_views_per_visit
+  name: page views per visit
+  short_name: page views / visit
+  unit: views
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: engagement
+
+# -----
+# participation
+# -----
+
+- uid: top_traffic_referrers
+  name: top traffic referrers
+  short_name: top traffic referrers
+  unit: "?"
+  cumulative: false
+  aggregate: "?"
+  chart_type: stacked_area
+  category: participation
+  # ???
+
+- uid: email_signups
+  name: email signups
+  short_name: email signups
+  unit: "?"
+  cumulative: false
+  aggregate: "?"
+  chart_type: stacked_area
+  category: participation
+
+- uid: comments_per_week
+  name: comments per week
+  short_name: comments / week
+  unit: "?"
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: participation
+
+- uid: unique_participants
+  name: unique participants
+  short_name: uniq. participants 
+  unit: "?"
+  cumulative: false
+  aggregate: week
+  chart_type: line
+  category: participation
+
+- uid: comments
+  name: comments
+  short_name: comments
+  unit: "comment"
+  cumulative: true
+  aggregate: null
+  chart_type: line
+  # chart_type: area ???
+  category: participation
+
+- uid: approved_versus_unapproved_comments
+  name: approved versus unapproved comments
+  short_name: approved vs. unapproved comments
+  unit: "comment"
+  cumulative: true
+  aggregate: null
+  chart_type: stacked_area
+  category: participation
+
+# "TBD" according to the October 14, 2010 Metrics document
+- uid: relative_event_prominence
+  name: relative event prominence
+  short_name: event prominence
+  unit: "?"
+  aggregate: "participation???"
+
+# -----
+# social sharing
+# -----
+
+- uid: facebook_likes
+  name: facebook likes
+  short_name: facebook likes
+  unit: "?"
+  aggregate: week
+  chart_type: stacked_area
+  category: social_sharing
+
+# also: retweeting

@@ -1,6 +1,6 @@
 header {
+  background-color: #e6e6e6;
   display: block;
-  background-color: silver;
   text-align: center; }
   header h1 {
     font-size: 24px; }
@@ -15,14 +15,42 @@ p {
   margin-bottom: 16px; }
 
 footer {
-  background-color: silver;
+  background-color: #e6e6e6;
+  clear: left;
   display: block;
   text-align: center; }
   footer h1 {
     font-size: 16px; }
 
-article#dashboard_show h1 {
-  text-align: center;
-  font-size: 24px; }
-article#dashboard_show p {
-  text-align: center; }
+div.main {
+  margin: 0 10px; }
+
+div#dashboard_show div#chart_1 {
+  width: 150px;
+  height: 100px; }
+div#dashboard_show section {
+  clear: left;
+  display: block;
+  border-top: 1px solid black; }
+  div#dashboard_show section h1 {
+    text-align: left;
+    font-size: 16px; }
+  div#dashboard_show section article {
+    display: block;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    div#dashboard_show section article h1 {
+      height: 28px;
+      margin: 0;
+      position: relative; }
+      div#dashboard_show section article h1 div {
+        bottom: 0;
+        font-size: 12px;
+        position: absolute;
+        text-align: center;
+        width: 150px; }
+    div#dashboard_show section article div.chart {
+      height: 100px;
+      background-color: #cccccc; }
